@@ -16,6 +16,7 @@
 1. 홈 어드밴티지 분석
 - 홈 경기와 원정 경기의 스탯 차이를 계산
 - 주표 지표에 대해 t-test를 수행하여 홈 어드밴티지의 통계적 유의성 검증
+<img width="680" height="422" alt="diff" src="https://github.com/user-attachments/assets/7d9c22a7-fdac-4c31-9886-10f0f4644a9b" />
 
     분석 결과 요약
         - 승률, 득점, 슈팅수가 홈에서 유의미하게 높은 성과 확인
@@ -25,6 +26,7 @@
 
 2. 승리했을 때 팀들의 평균 지표(점유율, 유효슈팅율, 선방률)
 - 승리 했던 팀들의 경기 평균 지표
+<img width="217" height="194" alt="스크린샷 2026-02-09 013803" src="https://github.com/user-attachments/assets/9f9321da-c0a4-4260-8282-8f3eea3c6e6e" />
 
 - 승리 했던 경기들의 평균 지표를 넘긴 팀은 아스날 1개팀만 넘겼다.
 - 골 평균 Top3 : 아스널(2.875), 바르셀로나(2.75), 바이에르뮌헨(2.75)
@@ -34,20 +36,18 @@
 
 3. 녹아웃 플레이오프 예측
 - 예측 요약
-| Matchup                        | Predicted Winner    |
-| ------------------------------ | ------------------- |
-| Galatasaray vs Juventus        | Galatasaray         |
-| Monaco vs PSG                  | Paris Saint-Germain |
-| Qarabağ vs Newcastle           | Newcastle United    |
-| Bodø/Glimt vs Inter            | Bodø/Glimt          |
-| Dortmund vs Atalanta           | Dortmund            |
-| Benfica vs Real Madrid         | Real Madrid         |
-| Olympiacos vs Leverkusen       | Leverkusen          |
-| Club Brugge vs Atlético Madrid | Atlético Madrid     |
-
+- 가라바흐 VS 뉴캐슬 : 뉴캐슬 (gap: 28.069)
+- 도르트문트 VS 아탈란타 : 도르투문트 (gap: 26.583)
+- 클뤼프 브뤼허 VS 아틀레티코 마드리드 : 아틀레티코 마드리드(gap: 25.583)
+- 보되/글림트 VS 인테르 : 보되/글림트(gap: 25.562)
+- 벤피카 VS 레알마드리드 : 레알마드리드 (gap: 1.808)
+- 갈라타사라이 VS 유벤투스 : 유벤투스(gap: 1.582)
+- 모나코 VS 파리생제르맹 : 파리생제르맹(gap: 1.248)
+- 올림피아코스 VS 레버쿠젠 : 레버쿠젠(gap: 1.168)
 ### 분석 결과
 -챔피언스리그 리그 페이즈에서는 전반적으로 홈 어드밴티지가 존재하며,  
  특히 득점 및 공격 기회 창출 지표에서 유의한 차이가 확인되었다.
 -승리 했을 때의 평균 경기 스탯을 넘긴 팀은 아스날 1개팀만 확인되었다. 
--녹아웃 플레이오프에서 16강에 진출할 팀은  뉴캐슬, 도르트문트, 아틀레티코마드리드, 보되/글림트  
-레알마드리드, 파리생제르맹, 레버쿠젠, 유벤투스 8팀으로 예측 결과가 나왔다.
+-녹아웃 플레이오프에서 16강에 진출할 팀  
+뉴캐슬, 도르트문트, 아틀레티코마드리드, 보되/글림트    
+레알마드리드, 파리생제르맹, 레버쿠젠, 유벤투스  
